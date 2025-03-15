@@ -1,0 +1,131 @@
+
+body {
+    font-family: 'Didot', serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #111;
+    padding: 20px 50px;
+    text-align: center;
+}
+nav .logo h1 {
+    font-family: 'Baskerville', serif;
+    font-size: 36px;
+    letter-spacing: 2px;
+    color: #fff;
+    margin: 0;
+}
+.hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 50px;
+    background-color: #111;
+}
+.hero h2 {
+    font-family: 'Baskerville', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.hero video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Product Section */
+.products {
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.products h2 {
+    font-size: 36px;
+    font-family: 'Baskerville', serif;
+    margin-bottom: 50px;
+}
+
+.product {
+    display: inline-block;
+    width: 22%;
+    margin: 1%;
+    background-color: #222;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product h3 {
+    font-family: 'Baskerville', serif;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.product .price {
+    font-family: 'Didot', serif;
+    font-size: 24px;
+    color: #d4af37;
+}
+
+.faq {
+    padding: 50px 100px;
+    background-color: #111;
+}
+
+.faq h2 {
+    font-size: 36px;
+    font-family: 'Baskerville', serif;
+    margin-bottom: 50px;
+}
+
+.faq-item {
+    margin-bottom: 30px;
+}
+
+.faq-item h3 {
+    font-family: 'Baskerville', serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contact {
+    padding: 50px 100px;
+    text-align: center;
+    background-color: #222;
+}
+.contact h2 {
+    font-size: 36px;
+    font-family: 'Baskerville', serif;
+    margin-bottom: 20px;
+}
+.contact p {
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    background-color: #111;
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+}
+.product:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
